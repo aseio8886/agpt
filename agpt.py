@@ -10,7 +10,7 @@ parser.add_argument("--list-models",  action="store_true")
 #parser.add_argument("--q
 args=parser.parse_args()
 
-google_key="AIzaSyBFs-4wRCRNDBF9wdCZeA-810yQvMsYmZc"
+google_key="APK_KEY"
 
 if not os.path.exists("conf.ini"):
     ans=input("No conf.ini exists. Create one (y/n) : ")
